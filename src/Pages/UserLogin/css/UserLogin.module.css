@@ -1,0 +1,108 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82px;
+    margin-bottom: 150px;
+}
+.innerContainer {
+    width: 400px;
+    padding: 30px;
+    border: 1px solid black; 
+}
+.inputForm {
+    width: 97%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    outline: none;
+}
+.emailDiv {
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+.rememberMeDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    font-size: 15px;
+
+}
+.loginBtnDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.loginBtn {
+    width: 130px;
+    height: 35px;
+}
+.forgetPassword {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+}
+.forgetPassword a {
+    text-decoration: none;
+    color: black;
+}
+.link {
+    color: #3bc2f3;
+}
+.photoDiv {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 20%;
+    height: 100px;
+}
+.imageLogo {
+    height: 73px;
+}
+
+
+/* Adding for screen sizes of 100px and 767px*/
+@media (min-width: 100px) and (max-width: 767px) { 
+    .innerContainer {
+        width: 283px;
+    }
+    .container {
+        margin-top: 35px;
+    }
+}
+
+/* for screen sizes from 430px and 541px */
+@media (min-width: 430px) and (max-width: 541px) {
+    .innerContainer {
+        width: 330px;
+    }
+
+}
+
+/* for screen sizes from 768px to 868px */
+@media (min-width: 768px) and (max-width: 868px) { 
+    .innerContainer {
+        width: 600px;
+    }
+}
+
+/* for screen sizes from 720px and 820px */
+@media (min-width: 720px) and (max-width: 820px) {
+    .innerContainer {
+        width: 600px;
+    }
+
+}
+
+/* for screen sizes from 900px and 1024px */
+@media (min-width: 900px) and (max-width: 1024px) {
+    .innerContainer {
+        width: 770px;
+    }
+
+}
+
+

@@ -1,0 +1,13 @@
+.adminHomeMessage {
+    display: grid;
+    margin-top: 130px;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    align-items: center;
+}
+.serviceTicket {
+    color: #02b1f0;
+    font-size: 16px;
+    margin-top: 50px; 
+}

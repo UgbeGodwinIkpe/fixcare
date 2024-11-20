@@ -1,0 +1,266 @@
+.headerDiv {
+    height: 70px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+
+.languageSelect {
+    padding: 5px;
+    width: 135px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #cecbcb;
+}
+
+.mainDiv {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #f4f4f4;
+    ;
+}
+
+.leftSection {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    width: 19%;
+    height: 189vh;
+    border: 1px solid #e3e3e3;
+    background-color: #f6f6f6;
+}
+
+.rightSection {
+    width: 81%;
+    height: 189vh;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+
+.imageLogo {
+    height: 60px;
+}
+
+.alarmAndLogoutDiv {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSectionHomeDiv {
+    margin-top: 30px;
+}
+
+.leftSection div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftSection div:hover,
+.leftSection div:focus {
+    border: 1px solid #adadad;
+}
+
+.leftSection div button {
+    border: none;
+    background: transparent;
+    margin-left: 7px;
+}
+
+.logoutBtn {
+    width: 108px;
+    height: 33px;
+    margin-left: 16px;
+}
+
+.dashboardHomeMessage {
+    display: grid;
+    margin-top: 190px;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    align-items: center;
+}
+
+.serviceTicket {
+    color: #02b1f0;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.scheduleService {
+    font-size: 12px;
+}
+
+.activeMenu {
+    border: 1px solid #adadad;
+}
+
+
+/* Add these styles to your Dashboard.module.css */
+
+
+/* Hidden by default */
+
+.menuContainer {
+    position: fixed;
+    top: 0;
+    left: -200%;
+    /* left: 0;  */
+    width: 74%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+    transition: left 0.5s ease;
+    display: grid;
+    padding: 20px;
+}
+
+
+/* Slide in the menu */
+
+.menuOpen {
+    left: 0;
+}
+
+.menuLogo {
+    display: none;
+}
+
+
+/* Slide out the menu */
+
+.menuClosed {
+    left: -200%;
+    /* left: 0;  */
+}
+
+
+/* Close button style */
+
+.menuContainer button {
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/* Adding the media queries */
+
+@media (max-width: 700px) {
+    .leftSection button {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .menuLogo {
+        display: grid;
+    }
+    .imageLogo {
+        display: none;
+    }
+    .leftSection div button {
+        border: none;
+        background: transparent;
+        margin-left: 0px;
+    }
+    .leftSection {
+        display: none;
+    }
+    .rightSection {
+        width: 100%;
+    }
+    .languageSelect {
+        padding: 5px;
+        width: 100px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #cecbcb;
+    }
+    .menuDiv {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        height: 39px;
+        position: fixed;
+        width: 89%;
+        background: white;
+    }
+    .alarmAndLogoutDiv {
+        display: flex;
+        width: 42%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dashboardHomeMessage {
+        display: grid;
+        margin-top: 90px;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        align-items: center;
+    }
+    .serviceTicket {
+        margin-top: 15px;
+    }
+    .homeBtn {
+        /* border: 1px solid #e2e2e2; */
+        height: 18px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        border-radius: 5px;
+        width: 86%;
+    }
+    .homeBtn button {
+        font-size: 15px;
+        margin-left: 9px;
+    }
+    .innerNav {
+        display: flex;
+        height: 43px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobileLogoImage {
+        height: 37px;
+    }
+    .menuLogo {
+        height: 23px;
+        margin-top: 1px;
+        margin-right: 9px;
+        margin-left: -7px;
+    }
+    .welcomeNameDiv {
+        display: none;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 969px) {
+    .leftSection {
+        width: 28%;
+    }
+    .rightSection {
+        width: 72%;
+    }
+    .welcomeMessage {
+        font-size: 20px;
+    }
+}

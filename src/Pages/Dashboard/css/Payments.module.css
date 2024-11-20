@@ -1,0 +1,27 @@
+.billingDetailsDiv {
+    margin: auto;
+    width: 55%;
+    margin-top: 71px;
+    border: 1px solid #dcdcdc;
+    padding: 43px;
+    border-radius: 8px;
+}
+.rightSection {
+    padding: 30px;
+}
+.pdfDownloadBtn {
+    height: 35px;
+    width: 120px;
+}
+
+/* Adding the mobile page */
+@media (max-width: 1160px) {
+    .billingDetailsDiv {
+        margin: auto;
+        width: 87%;
+        margin-top: 40px;
+        border: 1px solid #dcdcdc;
+        padding: 19px;
+        border-radius: 8px;
+    }
+}

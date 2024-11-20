@@ -1,0 +1,281 @@
+.mainDiv {
+    padding: 30px; 
+}
+.getyourSubHeaderDiv {
+    margin: auto;
+    width: 75%;    
+}
+.formDiv {
+    margin: auto;
+    border: 1px solid rgb(230, 230, 230);
+    display: grid;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 66%;
+    justify-content: center;
+    padding: 69px;
+    font-size: 14px;
+}
+.continentName, 
+.countryName {
+    width: 318px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px; 
+    border: 1px solid #9b9b9b;
+}
+.countryName {
+    margin-left: 12px; 
+}
+.password {
+    margin-left: 47px;
+}
+.email {
+    margin-left: 59px;
+}
+.inputForm {
+    height: 37px;
+    width: 307px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #00000061;
+}
+.formDiv div {
+    margin-bottom: 15px;
+}
+.firstname {
+    margin-left: 43px;
+}
+.middlename {
+    margin-left: 30px;
+}
+.lastname {
+    margin-left: 44px;
+}
+.premisesTypeDiv {
+    display: flex;
+    width: 322px;
+    justify-content: space-between;
+    margin-left: 14px;
+}
+.checkboxLabel {
+    margin-right: 4px;
+}
+.premisesTypeOuterDiv {
+    display: flex;
+    margin-top: 30px;
+}
+.distanceFromCenterDiv {
+    display: flex;
+    width: 29em;
+    margin-top: -15px;
+    justify-content: space-between;
+}
+.distanceFromCenterOptions {
+    display: flex;
+    width: 17em;
+    justify-content: space-between;
+}
+.contactDiv {
+    height: 31px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center; 
+}
+.contactForm {
+    margin-left: 68px;
+}
+.firstRowAddress {
+    display: flex;
+    margin-left: 70px;
+}
+.firstRowAddress div {
+    display: flex;
+    align-items: center;
+}
+.addressInputForm {
+    width: 78px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px; 
+}
+.addressDiv {
+    display: flex;
+    margin-top: 23px;
+}
+.landmarkInputForm {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 79px;
+    outline: none;
+}
+.secondRowAddress {
+    display: flex;
+    margin-left: 70px;
+}
+.landmarkDiv {
+    margin-left: 20px; 
+}
+.thirdRowAddress {
+    margin-left: 20px; 
+}
+.pinCodeDiv {
+    margin-left: 51px;
+}
+.selectStateForm, 
+.selectCityForm {
+    margin-left: 6px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+}
+.enterPinCodeForm {
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #969696;
+    width: 11em;
+}
+.checkboxMainDiv {
+    display: flex;
+    align-items: center;
+}
+.referralCodeDiv {
+    display: flex;
+    width: 27em;
+    align-items: center;
+    justify-content: space-between;
+}
+.referralCodeInputForm {
+    height: 39px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 18em;
+    border: 1px solid #b3b3b3;
+    outline: none;
+}
+.subscribeNow {
+    height: 39px;
+    width: 162px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    color: white;
+    background: #5a5ad1;
+}
+
+
+/* Adding for screen sizes of 412px*/
+@media (min-width: 412px) and (max-width: 600px) {
+    .inputForm {
+        height: 37px;
+        width: 306px;
+        padding-left: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #00000061;
+    }
+    .email {
+        margin-left: 18px;
+    }
+    .password {
+        margin-left: 4px; 
+    }
+    .formDiv {
+        margin-bottom: 15px;
+        display: grid;
+    }
+    .emailDiv {
+        display: grid; 
+    }
+
+} 
+
+/* Adding the mobile page */
+@media (min-width: 100px) and (max-width: 767px) { 
+    .mainDiv {
+        padding: 20px; 
+        margin: auto;
+        width: 100%; 
+    }
+    .emailDiv, .selectRegionDiv,
+    .passwordDiv ,.firstnameDiv, 
+    .middlenameDiv, .lastnameDiv, 
+    .selectCountriesDiv {
+        display: grid; 
+    }
+    .getyourSubHeaderDiv {
+        margin-left: 0px;
+    }
+    .formDiv {
+        width: 100%;
+        border: none;
+        display: block;
+        padding: 0px; 
+    }
+    .continentName, 
+    .password, 
+    .inputForm, 
+    .countryName {
+        margin-left: 0px;
+    }
+    .premisesLabelTypeDiv {
+        width: 156px;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+    }
+    .premisesTypeDiv {
+        display: flex;
+        width: 290px;
+        justify-content: space-between;
+        margin-left: -157px;
+        padding-top: 69px;
+        font-size: 12px;
+    }
+    .contactForm {
+        margin-left: 15px; 
+        width: 185px; 
+    }
+    .firstRowAddress {
+        margin-left: -62px;
+        margin-top: 31px;
+        font-size: 12px;
+    }
+    .addressInputForm {
+        width: 44px;
+    }
+    .secondRowAddress {
+        margin-left: -62px; 
+    }
+    .thirdRowAddress {
+        margin-left: -112px; 
+        margin-top: 19px;
+    }
+    .referralCodeDiv {
+        width: 19em;
+    }
+    .referralCodeInputForm {
+        width: 11em;
+    }
+    .tableDiv {
+        width: 90%;
+    }
+    .distanceFromCenterDiv {
+        display: grid; 
+    }
+    .distanceFromCenterOptions {
+        margin-left: 1px;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+}

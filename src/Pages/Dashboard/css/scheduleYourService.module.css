@@ -1,0 +1,157 @@
+.raiseYourMaintenanceDiv {
+    margin-bottom: 30px;
+}
+.scheduleYourServiceTable {
+    width: 500px;
+    margin: 2px 0;
+}
+.mainDiv {
+    padding: 30px; 
+}
+.container {
+    margin: auto;
+    width: 89%;
+    margin-top: 20px;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding: 11px;
+    border-radius: 8px;
+    /* border: 2px solid green;  */
+}
+.innerContainerDiv {
+    height: fit-content;
+    display: grid;
+    padding-top: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.enterAddressDiv {
+    margin-bottom: 15px;
+}
+.enterAddressInputForm {
+    height: 40px;
+    width: 307px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c7c7c7; 
+}
+.selectInputForm {
+    margin-bottom: 10px;
+    width: 320px;
+    padding: 6px;
+    border-radius: 4px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #b7b4b4;
+}
+.problemDiv {
+    margin-top: 2em;
+    display: grid; 
+}
+.problemInputForm {
+    width: 396px;
+    height: 143px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+}
+.preferredTimeSlotDiv {
+    margin-top: 30px;
+}
+.tableDataDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.enterManuallyDiv {
+    margin-top: 45px;
+    margin-bottom: 13px;
+}
+.selectDateAndTimeDiv {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.enterManuallyHeaderDiv {
+    margin-bottom: 10px;
+}
+.inputFormDate {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #c3bebe;
+    margin-left: 10px;
+    padding-left: 12px;
+}
+.inputFormTime {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #c3bebe;
+    margin-left: 10px;
+    padding-left: 12px;
+}
+.enterAnyMessageDiv {
+    margin-top: 30px;
+}
+.anyMessageInputForm {
+    width: 477px;
+    padding: 12px;
+    height: 140px;
+    outline: none;
+    border: 1px solid #c7c7c7;
+}
+.rightSection {
+    height: 200vh;
+}
+.submitBtnDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.submitBtn {
+    width: 35%;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    font-weight: bold;
+}
+/* .selectInputForm *, 
+option {
+    width: 320px;
+}
+
+option:hover {
+    width: 320px;
+} */
+
+
+/* Adding the mobile page  */
+@media (max-width: 1160px) {
+    .mainDiv {
+        padding: 0px;
+    }
+    .problemInputForm {
+        width: 299px;
+        height: 119px;
+    }
+    .scheduleYourServiceTable {
+        width: 327px;
+    }
+    .selectDateAndTimeDiv {
+        display: flex;
+        font-size: 13px;
+        width: 323px;
+        justify-content: flex-start;
+    }
+    .inputFormDate {
+        margin-left: 0px;
+    }
+    .anyMessageInputForm {
+        width: 302px;
+        padding: 12px;
+        height: 140px;
+        outline: none;
+        margin-top: 6px;
+        border: 1px solid #c7c7c7;
+    }
+}

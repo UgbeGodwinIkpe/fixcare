@@ -1,0 +1,61 @@
+.headerTextDiv {
+    margin-bottom: 20px;
+}
+
+.continentName {
+    margin-left: 20px;
+    height: 41px;
+    padding-left: 10px;
+    width: 26%;
+    border-radius: 5px;
+    outline: none;
+}
+.countryName {
+    margin-left: 11px;
+    width: 29%;
+    height: 42px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.selectCountry {
+    margin-top: 20px;
+}
+.selectUsers {
+    margin-top: 20px;
+}
+.userName {
+    margin-left: 40px;
+    width: 33%;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.userDetails {
+    width: 50%;
+    margin-top: 70px;
+}
+.uploadBtnDiv {
+    margin-top: 20px;
+}
+.uploadFile {
+    display: none;
+}
+.selectPdfBtn {
+    width: 148px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #b4b2b2;
+}
+.uploadBtn {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #a2a2a2;
+}
+.uploadBtn:hover, 
+.uploadBtn:focus {
+    background-color: #ececec;
+}

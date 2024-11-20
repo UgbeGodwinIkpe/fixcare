@@ -1,0 +1,117 @@
+.rightSection {
+    padding: 30px;
+}
+.headerParaDiv {
+    margin: auto;
+    width: 90%;
+    margin-top: 71px;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding: 11px;
+    border-radius: 8px;
+}
+.headerTextDiv {
+    margin-bottom: 44px;
+    line-height: 35px;
+}
+.subjectDiv {
+    padding-left: 50px;
+    margin: auto;
+    width: 75%;
+    float: right; 
+}
+.inputForm {
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(106, 106, 106);
+    outline: none;
+    margin-left: 10px;
+    width: 50%;
+}
+.selectTag {
+    margin-left: 30px;
+    height: 40px;
+    width: 52%;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.subjectDiv div {
+    margin-bottom: 15px;
+    display: flex;
+}
+.textAreaInputForm {
+    margin-left: 11px;
+    padding: 20px; 
+    width: 42%; 
+    height: 111px;
+    outline: none;
+    border-radius: 5px;
+}
+.addLogo {
+    height: 20px;
+    margin-right: 10px;
+}
+.attachAFileText {
+    color: #0BCAE5; 
+    font-size: 13px;
+}
+.attachAFileDiv {
+    margin-left: 106px;
+    margin-top: 22px;
+}
+.inputFile {
+    display: none;
+}
+.submitAndCancelDiv {
+    width: 353px;
+    margin-left: 111px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputBtn {
+    width: 48%;
+    height: 3em;
+}
+
+
+/* Adding the mobile page  */
+@media (max-width: 1160px) { 
+    .headerParaDiv {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .subjectDiv {
+        width: 100%;
+    }
+    .inputForm {
+        width: 66%;
+    }
+    .selectTag {
+        width: 70%;
+    }
+    .textAreaInputForm {
+        margin-left: 11px;
+        padding: 10px;
+        width: 61%;
+        height: 94px;
+        outline: none;
+        border-radius: 5px;
+    }
+    .submitAndCancelDiv {
+        width: 325px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .inputBtn {
+        width: 44%;
+        height: 3em;
+    }
+    .rightSection {
+        padding: 8px;
+    }
+}

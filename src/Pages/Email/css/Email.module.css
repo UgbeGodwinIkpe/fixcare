@@ -1,0 +1,82 @@
+.mainDiv {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #d8d8d8b5;
+    /* height: 100vh; */
+    padding-bottom: 91px;
+}
+.container {
+    /* height: 100vh; */
+    padding-bottom: 91px;
+    background-color: #d8d8d8;
+}
+.imageLogoDiv {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+.logoImage {
+    height: 78px;
+}
+.textDescDiv {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    width: 85%;
+    font-size: 13px;
+    background-color: #ffffff;
+    margin: auto;
+}
+.welcomeToFixTechCardHeaderDiv {
+    display: flex;
+    margin-top: 21px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.welcomeToFixtechCareHeader {
+    color: #08b3f1;
+    font-size: 25px;
+}
+.subscriptionTextDiv {
+    display: grid;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.tableDiv {
+    margin: auto;
+    width: 90%;
+}
+.tableData {
+    background: #002060;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.weareHereToHelpPara {
+    text-align: center;
+    color: #002060;
+    font-weight: bold;
+}
+.weareHereToHelpParaDiv {
+    margin-top: 80px;
+}
+.pleaseDownloadYourInvoice {
+    font-size: 13px;
+    margin: auto;
+    width: 90%;
+}
+.outterUnscribeMessage {
+    margin: auto;
+    width: 90%;
+    font-size: 11px;
+    margin-top: 25px;
+}
+.unsubscribeLink {
+    text-decoration: none;
+}
+.unsubscribeLinkDiv {
+    margin-top: 20px;
+}

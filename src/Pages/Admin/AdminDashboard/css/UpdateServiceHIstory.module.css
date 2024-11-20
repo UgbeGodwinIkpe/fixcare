@@ -1,0 +1,92 @@
+.mainDiv {
+    padding: 0px;
+}
+.updateServiceHeaderText {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.continentName {
+    margin-left: 20px;
+    height: 41px;
+    padding-left: 10px;
+    width: 26%;
+    border-radius: 5px;
+    outline: none;
+}
+.countryName {
+    margin-left: 11px;
+    width: 29%;
+    height: 42px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.selectCountry {
+    margin-top: 20px;
+}
+.selectUsers {
+    margin-top: 20px;
+}
+.userName {
+    margin-left: 40px;
+    width: 33%;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.userDetails {
+    width: 55%;
+    margin-top: 35px;
+}
+.uploadBtnDiv {
+    margin-top: 20px;
+}
+.uploadBtn {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #a2a2a2;
+}
+.uploadBtn:hover, 
+.uploadBtn:focus {
+    background-color: #ececec;
+}
+.serviceTypeSelect {
+    margin-left: 29px;
+    width: 63%;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.tableDiv {
+    width: 75%;
+    margin-top: 55px;
+}
+.submitBtnDiv {
+    width: 75%;
+}
+.submitBtn {
+    width: 32%;
+    height: 40px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.submitBtn:hover, 
+.submitBtn:focus {
+    background-color: darkgreen;
+}
+.inputForm {
+    width: 95%;
+    height: 32px;
+    padding-left: 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    outline: none;
+}

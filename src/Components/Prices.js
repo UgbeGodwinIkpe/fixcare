@@ -1,0 +1,36 @@
+// Creating the prices 
+const prices = {
+    "Thailand": "Thai B. 17500", 
+    "Singapore": "SGD 1099", 
+    "Hong Kong": "HK$ 6900", 
+    "Australia": "AUD 1999", 
+    "New Zealand": "NZD 1799", 
+    "India": "INR 9999", 
+    "Canada": "CAD 1200", 
+    "USA": "US$ 1350", 
+    "United Kingdom": "GBP 900", 
+    "Germany": "Euro 950", 
+    "France": "Euro 950", 
+    "Italy": "Euro 950", 
+    "Netherlands": "Euro 950", 
+    "Ireland": "Euro 950", 
+    "Switzerland": "CHF", 
+    "Poland": "PLN", 
+    "Belgium": "Euro 950", 
+    "Portugal": "Euro 950", 
+    "Spain": "Euro 950", 
+    "Slovakia": "SKK", 
+    "Greece": "Euro 950", 
+    "Austria": "Euro 950", 
+    "Hungary": "HUF", 
+    "Czech Republic": "CZK", 
+    "Serbia": "RSD", 
+    "Denmark": "DKK", 
+    "Sweden": "SEK", 
+    "Norway": "NOK", 
+    "Lithuania": "LTL", 
+    "Romania": "RON", 
+}
+
+// Exporting the prices 
+export default prices

@@ -1,0 +1,38 @@
+.headerTextDiv {
+    margin-bottom: 20px;
+}
+
+.continentName {
+    margin-left: 20px;
+    height: 41px;
+    padding-left: 10px;
+    width: 26%;
+    border-radius: 5px;
+    outline: none;
+}
+.countryName {
+    margin-left: 11px;
+    width: 29%;
+    height: 42px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.selectCountry {
+    margin-top: 20px;
+}
+.selectUsers {
+    margin-top: 20px;
+}
+.userName {
+    margin-left: 40px;
+    width: 33%;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.userDetails {
+    width: 70%;
+    margin-top: 70px;
+}

@@ -1,0 +1,68 @@
+.mainDiv {
+    padding: 45px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.questionYouMayHaveDiv {
+    margin-top: 69px;
+}
+.frequentlyAskedQuestionsHeaderText {
+    text-decoration: underline;
+    font-size: 25px; 
+}
+.faqQuestionsOutterDivSection {
+    margin-top: 40px;
+}
+.faqQuestionsDiv {
+    display: flex;
+    width: 580px;
+    border: 1px solid #dddddd;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.stillNotFoundDiv {
+    margin-top: 50px;
+    font-size: 13px;
+}
+.stillNotFoundDiv div {
+    margin-bottom: 11px;
+}
+.stillNotFoundDiv div a {
+    text-decoration: none;
+    color: #53caf5;
+}
+.active {
+    display: grid;
+    height: 180px;
+    padding: 16px;
+    font-size: 13px;
+    border: 2px solid rgb(218, 218, 225);
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.hidden {
+    display: none; 
+}
+
+
+
+/* Adding the media queries */
+@media (max-width: 700px) { 
+    .faqQuestionsDiv {
+        width: 286px;
+    }
+    .menuDiv {
+        width: 93%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 950px) { 
+    .faqQuestionsDiv {
+        width: 435px;
+    }
+}

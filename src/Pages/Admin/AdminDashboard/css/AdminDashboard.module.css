@@ -1,0 +1,103 @@
+.headerDiv {
+    height: 70px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+.mainDiv {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #f4f4f4;;
+}
+.leftSection {
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 80px;
+    width: 20%;
+    height: 189vh;
+    border: 1px solid #e3e3e3;
+    background-color: white;
+}
+.rightSection {
+    width: 80%;
+    height: 189vh;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+.imageLogo {
+    height: 60px;
+}
+.alarmAndLogoutDiv {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSectionHomeDiv {
+    margin-top: 30px;
+}
+.leftSection div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+}
+.leftSection div:hover, 
+.leftSection div:focus {
+    border: 1px solid #adadad; 
+}
+.leftSection div button {
+    border: none;
+    background: transparent;
+    margin-left: 7px; 
+}
+.logoutBtn {
+    width: 108px;
+    height: 33px;
+    margin-left: 16px;
+}
+.dashboardHomeMessage {
+    display: grid;
+    margin-top: 190px;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    align-items: center;
+}
+.serviceTicket {
+    color: #02b1f0;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.scheduleService {
+    font-size: 12px;
+}
+.activeMenu {
+    border: 1px solid #adadad; 
+}
+.innerRightSection {
+    padding: 65px;
+}
+
+
+
+/* Adding the media queries */
+@media (max-width: 1160px) {
+    .leftSection button {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .leftSection div button {
+        border: none;
+        background: transparent;
+        margin-left: 0px; 
+    }
+
+}

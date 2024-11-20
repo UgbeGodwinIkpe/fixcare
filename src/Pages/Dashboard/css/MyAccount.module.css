@@ -1,0 +1,135 @@
+.mainDiv {
+    padding: 30px; 
+}
+.userProfile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.editBtn {
+    height: 30px;
+    width: 110px;
+}
+.userProfileText {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.labelInputForm {
+    font-size: 14px;
+}
+.profileLogoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileLogo {
+    height: 54px;
+    margin-right: 20px;
+}
+.uploadBtn {
+    width: 125px;
+    padding: 10px;
+}
+.rightSection {
+    width: 85%;
+    height: fit-content;
+    border: 1px solid #e3e3e3;
+    background-color: #f4f4f4;
+}
+
+/* Adding the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-size: 13px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.tableDiv {
+    width: 391px;
+    margin-top: 75px;
+}
+
+/* Change password div */
+.changePasswordDiv {
+    margin-top: 29px;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 5px;
+}
+.upperSection {
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 5px;
+}
+.passwordSection {
+    margin-top: 2em;
+}
+.inputFormDiv {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    height: 39px;
+    align-items: center;
+}
+.inputForm {
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none; 
+    border: 1px solid rgb(128, 128, 128); 
+}
+.updateBtnDiv {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px; 
+}
+.updateBtn {
+    width: 128px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #a29c9c;
+}
+.inputFile {
+    display: none;
+}
+
+
+/* Adding the mobile page  */
+@media (max-width: 1160px) {
+    .tableDiv {
+        width: 310px;
+    }
+    .inputFormDiv {
+        width: 319px;
+    }
+    .inputForm {
+        width: 150px;
+    }
+    .mainDiv {
+        padding: 0px;
+    }
+}

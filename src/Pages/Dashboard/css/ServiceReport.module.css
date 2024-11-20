@@ -1,0 +1,51 @@
+th, td {
+    border: 1px solid #969696cf;
+}
+
+.rightSection {
+    padding: 30px;
+}
+.serviceReportDiv {
+    margin: auto;
+    width: 80%;
+    margin-top: 71px;
+    border: 1px solid #dcdcdc;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.blueTd {
+    background-color: #002060;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.redTd {
+    background-color: #ff0000eb;
+    color: white; 
+    text-align: center;
+    font-weight: bold;
+}
+.greenTd {
+    background-color: #00ff00;
+    color: white; 
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Adding the mobile page  */
+@media (max-width: 1160px) { 
+    .serviceReportDiv {
+        padding: 9px;
+        width: 89%;
+    }
+    table {
+        font-size: 10px;
+    }
+    .rightSection {
+        padding: 11px;
+    }
+}

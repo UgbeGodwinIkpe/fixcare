@@ -1,0 +1,26 @@
+.rightSection {
+    padding: 30px;
+}
+.SubscriptionDetailsDiv {
+    margin: auto;
+    width: 55%;
+    margin-top: 71px;
+    border: 1px solid #dcdcdc;
+    padding: 43px;
+    border-radius: 8px;
+}
+
+/* Adding the mobile page */
+@media (max-width: 1160px) { 
+    .SubscriptionDetailsDiv {
+        margin: auto;
+        width: 79%;
+        margin-top: 71px;
+        border: 1px solid #dcdcdc;
+        padding: 16px;
+        border-radius: 8px;
+    }
+    .rightSection {
+        padding: 7px;
+    }
+}
