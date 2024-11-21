@@ -21,7 +21,7 @@ const PaymentPage=()=> {
     }
     const createOrder = async () => {
         try {
-            const response = await fetch("http://localhost:6300/partner/createPaypalOrder", {
+            const response = await fetch("https://userbackend-c87y.onrender.com/partner/createPaypalOrder", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -40,7 +40,7 @@ const PaymentPage=()=> {
                 throw new Error(errorMessage);
             }
                 
-            // const response1 = await fetch("http://localhost:6300/partner/confirmPaypalOrder", {
+            // const response1 = await fetch("https://userbackend-c87y.onrender.com/partner/confirmPaypalOrder", {
             //     method: "POST",
             //     headers: { "Content-Type": "application/json" },
             //     body: JSON.stringify({
@@ -60,7 +60,7 @@ const PaymentPage=()=> {
 
     const onApprove = async (data) => {
         // Capture the funds from the transaction.
-        const response = await fetch("http://localhost:6300/partner/create-paypal-payment", {
+        const response = await fetch("https://userbackend-c87y.onrender.com/partner/create-paypal-payment", {
             method: "POST",
             body: JSON.stringify({
                 orderID: data.orderID

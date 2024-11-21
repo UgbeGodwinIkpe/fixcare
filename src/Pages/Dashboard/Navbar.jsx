@@ -42,7 +42,7 @@ const Navbar = ({ online, userName, setActiveMenu }) => {
         // logout user
         console.log("Logout")
         let authToken=localStorage.getItem('auth')
-        axios.get('http://localhost:6300/partner/logout', {token:authToken})
+        axios.get('https://userbackend-c87y.onrender.com/partner/logout', {token:authToken})
         .then(function (response) {
             // log response
             console.log("response:-", response);

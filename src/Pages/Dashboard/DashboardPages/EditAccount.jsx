@@ -33,7 +33,7 @@ const EditAccount = (props) => {
         //           icon: "error"
         //       }).then(()=>{window.location.href = "http://localhost:3000/login"});
         // }
-        axios.post('http://localhost:6300/partner/user', {refid:userRefId, token:authToken})
+        axios.post('https://userbackend-c87y.onrender.com/partner/user', {refid:userRefId, token:authToken})
         .then(function (response) {
             // log response
             console.log(response);
@@ -83,7 +83,7 @@ const EditAccount = (props) => {
               })
         }
         let changeData={refid:userRefId, token:authToken, email, fname, lname, mname, address, phone, street, city, landmark}
-        axios.patch('http://localhost:6300/partner/editUser', changeData)
+        axios.patch('https://userbackend-c87y.onrender.com/partner/editUser', changeData)
         .then(function (response) {
             // log response
             console.log("response:-");

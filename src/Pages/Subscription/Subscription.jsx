@@ -129,7 +129,7 @@ const Subscription = () => {
             // log new user detail on console
             console.log(newUser);
             // send data to api
-            axios.post('http://localhost:6300/partner/register', newUser)
+            axios.post('https://userbackend-c87y.onrender.com/partner/register', newUser)
                 .then(function (response) {
                     // Handle the successful response
                     console.log(response.data);

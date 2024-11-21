@@ -36,7 +36,7 @@ const MyAccount = (props) => {
         //           icon: "error"
         //       }).then(()=>{window.location.href = "http://localhost:3000/login"});
         // }
-        axios.post('http://localhost:6300/partner/user', {refid:userRefId, token:authToken})
+        axios.post('https://userbackend-c87y.onrender.com/partner/user', {refid:userRefId, token:authToken})
         .then(function (response) {
             // log response
             console.log(response);
@@ -125,7 +125,7 @@ const MyAccount = (props) => {
               })
         }
         let changeData={oldpass:op, newpass:np,refid:refid, token:authToken}
-        axios.patch('http://localhost:6300/partner/changeuserpassword', changeData)
+        axios.patch('https://userbackend-c87y.onrender.com/partner/changeuserpassword', changeData)
         .then(function (response) {
             // log response
             console.log("response:-");

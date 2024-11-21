@@ -22,7 +22,7 @@ const DashboardHome = (props) => {
                 title: "error",
                   text: "Session expired, kindly login!",
                   icon: "error"
-              }).then(()=>{window.location.href = "http://localhost:3000/login"});
+              }).then(()=>{window.location.href = "https://fixcare-ten.vercel.app/login"});
         }else{
             Swal.fire({
                 title: "success",

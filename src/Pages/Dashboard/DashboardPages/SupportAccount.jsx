@@ -42,7 +42,7 @@ const SupportAccount = (props) => {
       // log new user detail on console
       console.log(supMessage);
       // send data to api
-      axios.post('http://localhost:6300/partner/mail', supMessage,{
+      axios.post('https://userbackend-c87y.onrender.com/partner/mail', supMessage,{
         headers:{'Content-Type':'multipart/form-data',}
       })
           .then(function (response) {
@@ -71,7 +71,7 @@ const SupportAccount = (props) => {
     // handle support form
     const cancelSupport=()=>{
         console.log("I am cancelled!")
-        window.location.href = "http://localhost:3000/dashboard"
+        window.location.href = "https://fixcare-ten.vercel.app/dashboard"
     }
     // Return the jsx 
     return(

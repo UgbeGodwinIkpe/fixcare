@@ -54,7 +54,7 @@ const handleLogin = (e) => {
       // log new user detail on console
       console.log(newUser);
       // send data to api
-      axios.post('http://localhost:6300/partner/login', newUser)
+      axios.post('https://userbackend-c87y.onrender.com/partner/login', newUser)
           .then(function (response) {
               
           // console.log('refid',response.data.refid);
@@ -72,7 +72,7 @@ const handleLogin = (e) => {
               localStorage.setItem('refid', response.data.refid);
               localStorage.setItem('username', response.data.username);
               localStorage.setItem('auth', response.data.xAuthToken);
-              window.location.href = "http://localhost:3000/dashboard"
+              window.location.href = "https://fixcare-ten.vercel.app/dashboard"
             }
           });
           })

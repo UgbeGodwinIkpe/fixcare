@@ -88,7 +88,7 @@ const ScheduleYourService = (props) => {
      // log new user detail on console
      console.log(newService);
      // send data to api
-     axios.post('http://localhost:6300/partner/maintenance', newService)
+     axios.post('https://userbackend-c87y.onrender.com/partner/maintenance', newService)
          .then(function (response) {
              
          // console.log('refid',response.data.refid);
