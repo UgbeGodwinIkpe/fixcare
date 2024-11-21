@@ -56,7 +56,7 @@ const Navbar = ({ online, userName, setActiveMenu }) => {
                       text: "You have been logged out!",
                       icon: "success"
                   }).then(()=>{
-                      window.location.href = "http://localhost:3000/login"
+                      window.location.href = "https://fixcare-ten.vercel.app/login"
                     
                   });
             }else{
