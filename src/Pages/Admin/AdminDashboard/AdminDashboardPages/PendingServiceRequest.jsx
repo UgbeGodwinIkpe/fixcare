@@ -48,7 +48,7 @@ const PendingServiceRequest = (props) => {
         const token=localStorage.getItem('auth')
         console.log(serviceid, service);
         var userArray=[];
-        axios.post('http://localhost:6300/admin/pending', {serviceid:service, token:token})
+        axios.post('https://fixtech-admin-backend.onrender.com/admin/pending', {serviceid:service, token:token})
                 .then(function (response) {
                     if(response.status==200){
                         let usersD=response.data.data;

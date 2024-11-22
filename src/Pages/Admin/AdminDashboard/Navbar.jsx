@@ -19,7 +19,7 @@ const Navbar = (props) => {
         // logout user
         console.log("Logout")
         let authToken=localStorage.getItem('auth')
-        axios.get('http://localhost:6300/admin/logout', {token:authToken})
+        axios.get('https://fixtech-admin-backend.onrender.com/admin/logout', {token:authToken})
         .then(function (response) {
             // log response
             console.log("response:-", response);
@@ -33,7 +33,7 @@ const Navbar = (props) => {
                       text: "You have been logged out!",
                       icon: "success"
                   }).then(()=>{
-                      window.location.href = "http://localhost:3000/admin"
+                      window.location.href = "https://fixcare-ten.vercel.app/admin"
                     
                   });
             }else{

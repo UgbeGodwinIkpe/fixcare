@@ -39,7 +39,7 @@ const AdminLogin = () => {
             // log new user detail on console
             console.log(adminUser);
             // send data to api
-            axios.post('http://localhost:6300/admin/login', adminUser)
+            axios.post('https://fixtech-admin-backend.onrender.com/admin/login', adminUser)
                 .then(function (response) {
                     
                 // console.log('refid',response.data.refid);
@@ -57,7 +57,7 @@ const AdminLogin = () => {
                     localStorage.setItem('refid', response.data.refid);
                     localStorage.setItem('username', response.data.username);
                     localStorage.setItem('auth', response.data.xAuthToken);
-                    window.location.href = "http://localhost:3000/adminDashboard"
+                    window.location.href = "https://fixcare-ten.vercel.app/adminDashboard"
                   }
                 });
                 })

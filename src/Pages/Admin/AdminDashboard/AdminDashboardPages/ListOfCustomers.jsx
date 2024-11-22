@@ -31,7 +31,7 @@ const ListOfCustomers = (props) => {
         setSelectedCountry(country);
         const token=localStorage.getItem('auth')
         var userArray=[];
-        axios.post('http://localhost:6300/admin/list', {country, token})
+        axios.post('https://fixtech-admin-backend.onrender.com/admin/list', {country, token})
                 .then(function (response) {
                     let usersD=response.data.data;
                     for(var i=0; i<usersD.length; i++){
@@ -63,7 +63,7 @@ const ListOfCustomers = (props) => {
         let mn=user.split(" ")[2] || "";
         let token=localStorage.getItem("auth");
         let reqD={firstname:fn, lastname:ln, middlename:mn, token:token};
-        axios.post('http://localhost:6300/admin/userdetails', reqD)
+        axios.post('https://fixtech-admin-backend.onrender.com/admin/userdetails', reqD)
                 .then(function (response) {
                     let userD=response.data.data;
                     console.log(userD, userD.email)

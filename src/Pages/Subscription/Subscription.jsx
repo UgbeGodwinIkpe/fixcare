@@ -89,7 +89,7 @@ const Subscription = () => {
             const password = document.getElementById("password").value; 
             const email = document.getElementById("email").value; 
             const firstname = document.getElementById("firstname").value;
-            const middlename = document.getElementById("middlename").value; 
+            const middlename = document.getElementById("middlename").value || ""; 
             const lastname = document.getElementById("lastname").value; 
             const phoneNumber = document.getElementById("phoneNumber").value; 
             const houseNumber = document.getElementById("houseNumber").value;

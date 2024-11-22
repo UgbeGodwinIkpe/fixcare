@@ -18,7 +18,7 @@ const AdminHome = (props) => {
                 title: "error",
                   text: "Session expired, kindly login!",
                   icon: "error"
-              }).then(()=>{window.location.href = "http://localhost:3000/admin"});
+              }).then(()=>{window.location.href = "https://fixcare-ten.vercel.app/admin"});
         }else{
             Swal.fire({
                 title: "success",

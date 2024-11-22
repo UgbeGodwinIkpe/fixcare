@@ -41,7 +41,7 @@ const AdminUpdatePayment = (props) => {
         setSelectedCountry(country);
         const token=localStorage.getItem('auth')
         var userArray=[];
-        axios.post('http://localhost:6300/admin/list', {country, token})
+        axios.post('https://fixtech-admin-backend.onrender.com/admin/list', {country, token})
                 .then(function (response) {
                     let usersD=response.data.data;
                     for(var i=0; i<usersD.length; i++){
